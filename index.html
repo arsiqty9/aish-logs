@@ -34,7 +34,7 @@ tr:hover td{background:#161b22}
 <div class="header">
   <div>
     <h1>AISH ELITE — Live Trading Dashboard</h1>
-    <div class="ts">Auto-refreshes every 60s &nbsp;|&nbsp; Last push: 2026-05-01 00:47:51 AEST</div>
+    <div class="ts">Auto-refreshes every 60s &nbsp;|&nbsp; Last push: 2026-05-01 00:48:53 AEST</div>
   </div>
   <div style="text-align:right">
     <span style="background:#28a745;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;font-weight:bold">LIVE</span>
@@ -50,56 +50,70 @@ tr:hover td{background:#161b22}
 <div class="grid">
   <div class="card">
     <div class="label">Balance</div>
-    <div class="value">$1,426.22</div>
-    <div class="sub">Equity: $1,404.94</div>
+    <div class="value">$1,397.79</div>
+    <div class="sub">Equity: $1,397.79</div>
   </div>
   <div class="card">
     <div class="label">Today P&amp;L</div>
-    <div class="value" style="color:#3fb950">$+0.00</div>
+    <div class="value" style="color:#3fb950">$+114.27</div>
     <div class="sub">Scalp | TRANSITION</div>
   </div>
   <div class="card">
     <div class="label">Today Total R</div>
-    <div class="value" style="color:#3fb950">+0.00R</div>
-    <div class="sub">0 trades today</div>
+    <div class="value" style="color:#3fb950">+0.86R</div>
+    <div class="sub">1 trades today</div>
   </div>
   <div class="card">
     <div class="label">Win Rate</div>
-    <div class="value">0.0%</div>
-    <div class="sub">0W / 0L</div>
+    <div class="value">100.0%</div>
+    <div class="sub">1W / 0L</div>
   </div>
   <div class="card">
     <div class="label">Drawdown</div>
-    <div class="value" style="color:#c9d1d9">-40.5%</div>
+    <div class="value" style="color:#c9d1d9">-39.8%</div>
     <div class="sub">Peak: $1,000.00</div>
   </div>
   <div class="card">
     <div class="label">Open Positions</div>
-    <div class="value">1</div>
+    <div class="value">0</div>
     <div class="sub">Max allowed: 10</div>
   </div>
   <div class="card">
     <div class="label">Avg Win / Loss</div>
-    <div class="value" style="color:#3fb950">+0.00R</div>
+    <div class="value" style="color:#3fb950">+0.86R</div>
     <div class="sub">Avg Loss: +0.00R</div>
   </div>
   <div class="card">
     <div class="label">Streak</div>
-    <div class="value" style="color:#3fb950">+4W</div>
+    <div class="value" style="color:#3fb950">+6W</div>
     <div class="sub">Consec. losses: 0</div>
   </div>
 </div>
 
 <div class="section">
   <h2>Today's Closed Trades (last 20)</h2>
-  <p style='color:#8b949e;font-size:13px;padding:8px 0'>No closed trades yet today.</p>
+  
+  <table>
+    <thead>
+      <tr><th>Time</th><th>Symbol</th><th>Dir</th><th>Strategy</th>
+      <th>Regime</th><th>Result</th><th>R</th><th>USD</th><th>Exit</th><th>Dur</th></tr>
+    </thead>
+    <tbody><tr><td>2026-05-01T00:48</td><td><b>USDCAD</b></td><td>SELL</td><td>INSIDE_BAR</td><td>TRANSITION</td><td style="color:#3fb950;font-weight:bold">WIN</td><td style="color:#3fb950;font-weight:bold">+0.86R</td><td>$+114.27</td><td>TP</td><td>29m</td></tr></tbody>
+  </table>
 </div>
 
 
+<div class="section">
+  <h2>Today by Strategy</h2>
+  <table>
+    <thead><tr><th>Strategy</th><th>Trades</th><th>Wins</th><th>Win%</th><th>Total R</th><th>USD P&L</th></tr></thead>
+    <tbody><tr><td><b>INSIDE_BAR</b></td><td>1</td><td>1</td><td>100%</td><td style="color:#3fb950;font-weight:bold">+0.86R</td><td style="color:#3fb950">$+114.27</td></tr></tbody>
+  </table>
+</div>
 
 
 <div class="section">
-  <h2>Current Scan State (2026-05-01 00:47:49)</h2>
+  <h2>Current Scan State (2026-05-01 00:48:53)</h2>
   <div style="font-size:13px;line-height:1.8">
     <b>Candidates:</b> 0 (BUY: 0, SELL: 0)<br>
     <b>Vetoes:</b> BTCUSD: SCORE_0, ETHUSD: SCORE_0, XAUUSD: SCORE_0, EURUSD: SCORE_0, GBPUSD: SCORE_0, USDJPY: SCORE_0, AUDUSD: SCORE_0, GBPJPY: SCORE_0
@@ -107,13 +121,6 @@ tr:hover td{background:#161b22}
 </div>
 
 
-<div class="section">
-  <h2>Open Positions (1)</h2>
-  <table>
-    <thead><tr><th>Symbol</th><th>Dir</th><th>Lots</th><th>Entry</th><th>Current</th><th>SL</th><th>TP</th><th>P&L</th></tr></thead>
-    <tbody><tr><td><b>USDCAD</b></td><td>SELL</td><td>0.66</td><td>1.36397</td><td>1.36441</td><td>1.36674</td><td>1.35984</td><td style="color:#f85149">$-21.28</td></tr></tbody>
-  </table>
-</div>
 
 <div class="note">
   Auto-refreshes every 60s &nbsp;|&nbsp;
