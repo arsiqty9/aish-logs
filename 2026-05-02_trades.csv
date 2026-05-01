@@ -1,0 +1,3 @@
+timestamp,ticket,symbol,direction,strategy,regime,result,pnl_r,profit_usd,entry_price,sl,tp,exit_reason,duration_minutes,ml_probability,score,lots,risk_usd,atr_at_entry
+2026-05-02T02:23:38,275326773,USDJPY,SELL,SUPERTREND,RANGING,LOSS,-0.1188,-6.89,156.8125,156.8925,156.6925,PROFIT_PROTECT,0.2,,,,,
+2026-05-02T02:24:01,275329527,BTCUSD,BUY,SUPERTREND,COMPRESSION,WIN,0.1973,2.96,78223.71,78279.34132,78448.71,BREAKEVEN,0.3,,,,,

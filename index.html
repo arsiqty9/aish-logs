@@ -34,7 +34,7 @@ tr:hover td{background:#161b22}
 <div class="header">
   <div>
     <h1>AISH ELITE — Live Trading Dashboard</h1>
-    <div class="ts">Auto-refreshes every 60s &nbsp;|&nbsp; Last push: 2026-05-02 02:23:01 </div>
+    <div class="ts">Auto-refreshes every 60s &nbsp;|&nbsp; Last push: 2026-05-02 02:24:04 </div>
   </div>
   <div style="text-align:right">
     <span style="background:#28a745;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;font-weight:bold">LIVE</span>
@@ -52,27 +52,27 @@ tr:hover td{background:#161b22}
 <div class="grid">
   <div class="card">
     <div class="label">Balance</div>
-    <div class="value">$837.75</div>
-    <div class="sub">Equity: $824.97</div>
+    <div class="value">$831.53</div>
+    <div class="sub">Equity: $870.55</div>
   </div>
   <div class="card">
     <div class="label">Today P&amp;L</div>
-    <div class="value" style="color:#3fb950">$+0.00</div>
-    <div class="sub">+0.00% | Scalp | RANGING</div>
+    <div class="value" style="color:#f85149">$-3.93</div>
+    <div class="sub">-0.47% | Scalp | COMPRESSION</div>
   </div>
   <div class="card">
     <div class="label">Today Total R</div>
-    <div class="value" style="color:#3fb950">+0.00R</div>
-    <div class="sub">0 trades today</div>
+    <div class="value" style="color:#3fb950">+0.08R</div>
+    <div class="sub">2 trades today</div>
   </div>
   <div class="card">
     <div class="label">Win Rate</div>
-    <div class="value">0.0%</div>
-    <div class="sub">0W / 0L</div>
+    <div class="value">50.0%</div>
+    <div class="sub">1W / 1L</div>
   </div>
   <div class="card">
     <div class="label">Drawdown</div>
-    <div class="value" style="color:#c9d1d9">1.8%</div>
+    <div class="value" style="color:#c9d1d9">-3.6%</div>
     <div class="sub">Peak: $840.35</div>
   </div>
   <div class="card">
@@ -82,35 +82,49 @@ tr:hover td{background:#161b22}
   </div>
   <div class="card">
     <div class="label">Avg Win / Loss</div>
-    <div class="value" style="color:#3fb950">+0.00R</div>
-    <div class="sub">Avg Loss: +0.00R</div>
+    <div class="value" style="color:#3fb950">+0.20R</div>
+    <div class="sub">Avg Loss: -0.12R</div>
   </div>
   <div class="card">
     <div class="label">Streak</div>
-    <div class="value" style="color:#3fb950">+2W</div>
+    <div class="value" style="color:#3fb950">+4W</div>
     <div class="sub">Consec. losses: 0</div>
   </div>
   <div class="card">
     <div class="label">All-Time Trades</div>
-    <div class="value">52</div>
+    <div class="value">54</div>
     <div class="sub">Since reset: 2026-05-02</div>
   </div>
 </div>
 
 <div class="section">
   <h2>Today's Closed Trades (last 20)</h2>
-  <p style='color:#8b949e;font-size:13px;padding:8px 0'>No closed trades yet today.</p>
+  
+  <table>
+    <thead>
+      <tr><th>Time</th><th>Symbol</th><th>Dir</th><th>Strategy</th>
+      <th>Regime</th><th>Result</th><th>R</th><th>USD</th><th>Exit</th><th>Dur</th></tr>
+    </thead>
+    <tbody><tr><td>2026-05-02T02:24</td><td><b>BTCUSD</b></td><td>BUY</td><td>SUPERTREND</td><td>COMPRESSION</td><td style="color:#3fb950;font-weight:bold">WIN</td><td style="color:#3fb950;font-weight:bold">+0.20R</td><td>$+2.96</td><td>BREAKEVEN</td><td>0m</td></tr><tr><td>2026-05-02T02:23</td><td><b>USDJPY</b></td><td>SELL</td><td>SUPERTREND</td><td>RANGING</td><td style="color:#f85149;font-weight:bold">LOSS</td><td style="color:#f85149;font-weight:bold">-0.12R</td><td>$-6.89</td><td>PROFIT_PROTECT</td><td>0m</td></tr></tbody>
+  </table>
 </div>
 
 
+<div class="section">
+  <h2>Today by Strategy</h2>
+  <table>
+    <thead><tr><th>Strategy</th><th>Trades</th><th>Wins</th><th>Win%</th><th>Total R</th><th>USD P&L</th></tr></thead>
+    <tbody><tr><td><b>SUPERTREND</b></td><td>2</td><td>1</td><td>50%</td><td style="color:#3fb950;font-weight:bold">+0.08R</td><td style="color:#3fb950">$-3.93</td></tr></tbody>
+  </table>
+</div>
 
 
 <div class="section">
-  <h2>Latest Scan State &amp; Blocked Reasons (2026-05-02 02:22:57)</h2>
+  <h2>Latest Scan State &amp; Blocked Reasons (2026-05-02 02:24:04)</h2>
   <div style="font-size:13px;margin-bottom:8px">
-    <b>Candidates:</b> 1 &nbsp;(BUY: 0 &nbsp;SELL: 1)
+    <b>Candidates:</b> 0 &nbsp;(BUY: 0 &nbsp;SELL: 0)
   </div>
-  <table><thead><tr><th>Symbol</th><th>Block Reason</th></tr></thead><tbody><tr><td><b>BTCUSD</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>ETHUSD</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>XAUUSD</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>EURUSD</b></td><td style="color:#8b949e">ML_51%</td></tr><tr><td><b>GBPUSD</b></td><td style="color:#8b949e">MAX_SYM_OPEN</td></tr><tr><td><b>USDJPY</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>AUDUSD</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>GBPJPY</b></td><td style="color:#fd7e14">SCORE_35</td></tr><tr><td><b>USDCAD</b></td><td style="color:#8b949e">ML_47%</td></tr><tr><td><b>NZDUSD</b></td><td style="color:#fd7e14">SCORE_35</td></tr></tbody></table>
+  <table><thead><tr><th>Symbol</th><th>Block Reason</th></tr></thead><tbody><tr><td><b>BTCUSD</b></td><td style="color:#8b949e">COOLDOWN</td></tr><tr><td><b>ETHUSD</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>XAUUSD</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>EURUSD</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>GBPUSD</b></td><td style="color:#8b949e">MAX_SYM_OPEN</td></tr><tr><td><b>USDJPY</b></td><td style="color:#8b949e">PP_CD_154s</td></tr><tr><td><b>AUDUSD</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>GBPJPY</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>USDCAD</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>USDCHF</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>NZDUSD</b></td><td style="color:#fd7e14">SCORE_0</td></tr></tbody></table>
 </div>
 
 
@@ -118,7 +132,7 @@ tr:hover td{background:#161b22}
   <h2>Open Positions (2)</h2>
   <table>
     <thead><tr><th>Symbol</th><th>Dir</th><th>Lots</th><th>Entry</th><th>Current</th><th>SL</th><th>TP</th><th>P&L</th></tr></thead>
-    <tbody><tr><td><b>GBPUSD</b></td><td>SELL</td><td>0.45</td><td>1.36171</td><td>1.36182</td><td>1.36306</td><td>1.35962</td><td style="color:#f85149">$-4.95</td></tr><tr><td><b>GBPUSD</b></td><td>SELL</td><td>0.29</td><td>1.36155</td><td>1.36182</td><td>1.36299</td><td>1.35944</td><td style="color:#f85149">$-7.83</td></tr></tbody>
+    <tbody><tr><td><b>GBPUSD</b></td><td>SELL</td><td>0.45</td><td>1.36171</td><td>1.36112</td><td>1.36306</td><td>1.35962</td><td style="color:#3fb950">$+26.55</td></tr><tr><td><b>GBPUSD</b></td><td>SELL</td><td>0.29</td><td>1.36155</td><td>1.36112</td><td>1.36299</td><td>1.35944</td><td style="color:#3fb950">$+12.47</td></tr></tbody>
   </table>
 </div>
 
@@ -128,7 +142,7 @@ tr:hover td{background:#161b22}
      style="background:#238636;border:1px solid #2ea043;color:#fff;padding:6px 16px;border-radius:6px;font-size:12px;font-weight:bold;text-decoration:none">&#11015; CSV (Excel)</a>
   <a href="./2026-05-02_trades_raw.jsonl" download
      style="background:#1f6feb;border:1px solid #388bfd;color:#fff;padding:6px 16px;border-radius:6px;font-size:12px;font-weight:bold;text-decoration:none">&#11015; JSONL (Raw Events)</a>
-  <span style="font-size:11px;color:#8b949e">0 trades &nbsp;|&nbsp; updated 2026-05-02 02:23:01 </span>
+  <span style="font-size:11px;color:#8b949e">2 trades &nbsp;|&nbsp; updated 2026-05-02 02:24:04 </span>
 </div>
 
 <div class="note">
