@@ -1,0 +1,2 @@
+timestamp,ticket,symbol,direction,strategy,regime,result,pnl_r,profit_usd,entry_price,sl,tp,exit_reason,duration_minutes,ml_probability,score,lots,risk_usd,atr_at_entry
+2026-05-03T00:07:22,276047276,ETHUSD,BUY,INSIDE_BAR,,LOSS,-0.2134,-2.15,,,,STAGNATION,60.0,,,,,

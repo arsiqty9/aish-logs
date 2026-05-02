@@ -34,7 +34,7 @@ tr:hover td{background:#161b22}
 <div class="header">
   <div>
     <h1>AISH ELITE — Live Trading Dashboard</h1>
-    <div class="ts">Auto-refreshes every 60s &nbsp;|&nbsp; Last push: 2026-05-03 00:07:02 </div>
+    <div class="ts">Auto-refreshes every 60s &nbsp;|&nbsp; Last push: 2026-05-03 00:08:04 </div>
   </div>
   <div style="text-align:right">
     <span style="background:#28a745;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;font-weight:bold">LIVE</span>
@@ -52,38 +52,38 @@ tr:hover td{background:#161b22}
 <div class="grid">
   <div class="card">
     <div class="label">Balance</div>
-    <div class="value">$822.40</div>
-    <div class="sub">Equity: $829.28</div>
+    <div class="value">$820.40</div>
+    <div class="sub">Equity: $827.66</div>
   </div>
   <div class="card">
     <div class="label">Today P&amp;L</div>
-    <div class="value" style="color:#3fb950">$+0.00</div>
-    <div class="sub">+0.00% | Scalp | RANGING</div>
+    <div class="value" style="color:#f85149">$-2.15</div>
+    <div class="sub">-0.26% | Scalp | RANGING</div>
   </div>
   <div class="card">
     <div class="label">Today Total R</div>
-    <div class="value" style="color:#3fb950">+0.00R</div>
-    <div class="sub">0 trades today</div>
+    <div class="value" style="color:#f85149">-0.21R</div>
+    <div class="sub">1 trades today</div>
   </div>
   <div class="card">
     <div class="label">Win Rate</div>
     <div class="value">0.0%</div>
-    <div class="sub">0W / 0L</div>
+    <div class="sub">0W / 1L</div>
   </div>
   <div class="card">
     <div class="label">Drawdown</div>
-    <div class="value" style="color:#c9d1d9">6.3%</div>
+    <div class="value" style="color:#c9d1d9">6.5%</div>
     <div class="sub">Peak: $884.95</div>
   </div>
   <div class="card">
     <div class="label">Open Positions</div>
-    <div class="value">2</div>
+    <div class="value">1</div>
     <div class="sub">Max allowed: 10</div>
   </div>
   <div class="card">
     <div class="label">Avg Win / Loss</div>
     <div class="value" style="color:#3fb950">+0.00R</div>
-    <div class="sub">Avg Loss: +0.00R</div>
+    <div class="sub">Avg Loss: -0.21R</div>
   </div>
   <div class="card">
     <div class="label">Streak</div>
@@ -99,26 +99,40 @@ tr:hover td{background:#161b22}
 
 <div class="section">
   <h2>Today's Closed Trades (last 20)</h2>
-  <p style='color:#8b949e;font-size:13px;padding:8px 0'>No closed trades yet today.</p>
+  
+  <table>
+    <thead>
+      <tr><th>Time</th><th>Symbol</th><th>Dir</th><th>Strategy</th>
+      <th>Regime</th><th>Result</th><th>R</th><th>USD</th><th>Exit</th><th>Dur</th></tr>
+    </thead>
+    <tbody><tr><td>2026-05-03T00:07</td><td><b>ETHUSD</b></td><td>BUY</td><td>INSIDE_BAR</td><td>CHOP</td><td style="color:#f85149;font-weight:bold">LOSS</td><td style="color:#f85149;font-weight:bold">-0.21R</td><td>$-2.15</td><td>STAGNATION</td><td>60m</td></tr></tbody>
+  </table>
 </div>
 
 
+<div class="section">
+  <h2>Today by Strategy</h2>
+  <table>
+    <thead><tr><th>Strategy</th><th>Trades</th><th>Wins</th><th>Win%</th><th>Total R</th><th>USD P&L</th></tr></thead>
+    <tbody><tr><td><b>INSIDE_BAR</b></td><td>1</td><td>0</td><td>0%</td><td style="color:#f85149;font-weight:bold">-0.21R</td><td style="color:#f85149">$-2.15</td></tr></tbody>
+  </table>
+</div>
 
 
 <div class="section">
-  <h2>Latest Scan State &amp; Blocked Reasons (2026-05-03 00:06:56)</h2>
+  <h2>Latest Scan State &amp; Blocked Reasons (2026-05-03 00:07:57)</h2>
   <div style="font-size:13px;margin-bottom:8px">
     <b>Candidates:</b> 0 &nbsp;(BUY: 0 &nbsp;SELL: 0)
   </div>
-  <table><thead><tr><th>Symbol</th><th>Block Reason</th></tr></thead><tbody><tr><td><b>BTCUSD</b></td><td style="color:#8b949e">REENTRY_COUNTER_TREND</td></tr><tr><td><b>ETHUSD</b></td><td style="color:#8b949e">REENTRY_COUNTER_TREND</td></tr><tr><td><b>XAUUSD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>EURUSD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>GBPUSD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>USDJPY</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>AUDUSD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>GBPJPY</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>USDCAD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>USDCHF</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>NZDUSD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr></tbody></table>
+  <table><thead><tr><th>Symbol</th><th>Block Reason</th></tr></thead><tbody><tr><td><b>BTCUSD</b></td><td style="color:#8b949e">REENTRY_COUNTER_TREND</td></tr><tr><td><b>ETHUSD</b></td><td style="color:#fd7e14">SCORE_0</td></tr><tr><td><b>XAUUSD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>EURUSD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>GBPUSD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>USDJPY</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>AUDUSD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>GBPJPY</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>USDCAD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>USDCHF</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr><tr><td><b>NZDUSD</b></td><td style="color:#8b949e">WEEKEND_NON_CRYPTO</td></tr></tbody></table>
 </div>
 
 
 <div class="section">
-  <h2>Open Positions (2)</h2>
+  <h2>Open Positions (1)</h2>
   <table>
     <thead><tr><th>Symbol</th><th>Dir</th><th>Lots</th><th>Entry</th><th>Current</th><th>SL</th><th>TP</th><th>P&L</th></tr></thead>
-    <tbody><tr><td><b>BTCUSD</b></td><td>BUY</td><td>0.05</td><td>78207.28000</td><td>78355.01000</td><td>78192.81000</td><td>78509.07000</td><td style="color:#3fb950">$+7.39</td></tr><tr><td><b>ETHUSD</b></td><td>BUY</td><td>0.38</td><td>2309.68000</td><td>2308.34000</td><td>2286.84000</td><td>2330.52000</td><td style="color:#f85149">$-0.51</td></tr></tbody>
+    <tbody><tr><td><b>BTCUSD</b></td><td>BUY</td><td>0.05</td><td>78207.28000</td><td>78352.54000</td><td>78192.81000</td><td>78509.07000</td><td style="color:#3fb950">$+7.26</td></tr></tbody>
   </table>
 </div>
 
@@ -128,7 +142,7 @@ tr:hover td{background:#161b22}
      style="background:#238636;border:1px solid #2ea043;color:#fff;padding:6px 16px;border-radius:6px;font-size:12px;font-weight:bold;text-decoration:none">&#11015; CSV (Excel)</a>
   <a href="./2026-05-03_trades_raw.jsonl" download
      style="background:#1f6feb;border:1px solid #388bfd;color:#fff;padding:6px 16px;border-radius:6px;font-size:12px;font-weight:bold;text-decoration:none">&#11015; JSONL (Raw Events)</a>
-  <span style="font-size:11px;color:#8b949e">0 trades &nbsp;|&nbsp; updated 2026-05-03 00:07:02 </span>
+  <span style="font-size:11px;color:#8b949e">1 trades &nbsp;|&nbsp; updated 2026-05-03 00:08:04 </span>
 </div>
 
 <div class="note">
