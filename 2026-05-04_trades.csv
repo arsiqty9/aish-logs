@@ -1,0 +1,2 @@
+timestamp,ticket,symbol,direction,strategy,regime,result,pnl_r,profit_usd,entry_price,sl,tp,exit_reason,duration_minutes,ml_probability,score,lots,risk_usd,atr_at_entry
+2026-05-04T00:27:22,276072446,BTCUSD,SELL,INSIDE_BAR,,LOSS,-0.2232,-5.71,,,,STAGNATION,60.0,,,,,

@@ -1,0 +1,1 @@
+{"event_type": "TRADE_OUTCOME", "timestamp": "2026-05-04T00:27:22", "ticket": "276072446", "symbol": "BTCUSD", "direction": "SELL", "strategy": "INSIDE_BAR", "regime": "EXPANSION", "result": "LOSS", "pnl_r": -0.2232, "profit_usd": -5.71, "entry_price": 78621.22, "sl": 78902.65, "tp": 78339.79, "duration_minutes": 60.0, "exit_reason": "STAGNATION"}
