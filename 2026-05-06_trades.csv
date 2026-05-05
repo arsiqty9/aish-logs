@@ -1,0 +1,2 @@
+timestamp,ticket,symbol,direction,strategy,regime,result,pnl_r,profit_usd,entry_price,sl,tp,exit_reason,duration_minutes,ml_probability,score,lots,risk_usd,atr_at_entry
+2026-05-06T00:08:14,276754888,NZDUSD,BUY,,,WIN,0.2328,2.16,,,,TP,0.0,,,,,

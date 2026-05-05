@@ -1,0 +1,1 @@
+{"event_type": "TRADE_OUTCOME", "timestamp": "2026-05-06T00:08:14", "ticket": "276754888", "symbol": "NZDUSD", "direction": "BUY", "strategy": "", "regime": "", "result": "WIN", "pnl_r": 0.2328, "profit_usd": 2.16, "entry_price": 0.58884, "sl": 0.58768, "tp": 0.59233, "duration_minutes": 0.0, "exit_reason": "TP"}
