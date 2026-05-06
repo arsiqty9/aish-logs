@@ -1,0 +1,1 @@
+{"event_type": "TRADE_OUTCOME", "timestamp": "2026-05-07T00:59:24", "ticket": "277295785", "symbol": "USDCHF", "direction": "SELL", "strategy": "INSIDE_BAR", "regime": "WEAK_TREND", "result": "LOSS", "pnl_r": -0.1146, "profit_usd": -0.41, "entry_price": 0.77891, "sl": 0.78031, "tp": 0.77472, "duration_minutes": 15.1, "exit_reason": "MOMENTUM_STOP"}
